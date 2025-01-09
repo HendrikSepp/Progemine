@@ -11,7 +11,7 @@
             {
                 Console.WriteLine("Oled alaealine! Kas käid ikka koolis?");
                 string vastus = (Console.ReadLine());
-                if (vastus == "jah" || vastus == "Jah" || vastus == "JAH")
+                if (vastus == "jah" || vastus == "Jah" || vastus == "JAH" || vastus == "jah!" || vastus == "Jah!" || vastus == "JAH!")
                 {
                     Console.WriteLine("Tubli! Nii peabki!");
                 }
