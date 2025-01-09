@@ -4,21 +4,24 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("If ja else nestimine");
+            Console.WriteLine("Sisesta vanus");
+            int vanus = int.Parse(Console.ReadLine());
 
-            if ()
+            if (vanus <= 17)
             {
-                if ()
+                Console.WriteLine("Oled alaealine!");
+                if (vanus < 7)
                 {
-
+                    Console.WriteLine("Ja ka koolieelik!");
                 }
                 else
                 {
-
+                    Console.WriteLine("Loodan, et läheb koolis hästi!");
                 }
             }
+            else
             {
-
+                Console.WriteLine("Oled täisealine!");
             }
 
         }
