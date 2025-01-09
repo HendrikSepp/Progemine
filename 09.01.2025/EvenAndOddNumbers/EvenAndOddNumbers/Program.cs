@@ -10,11 +10,11 @@
 
             if (number % 2 == 1)
             {
-                Console.WriteLine("arv on paaritu!");
+                Console.WriteLine("Arv on paaritu!");
             }
             else
             {
-                Console.WriteLine("arv on paaris!");
+                Console.WriteLine("Arv on paaris!");
             }
         }
     }
