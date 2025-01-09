@@ -9,14 +9,15 @@
 
             if (vanus <= 17)
             {
-                Console.WriteLine("Oled alaealine!");
-                if (vanus < 7)
+                Console.WriteLine("Oled alaealine! Kas käid ikka koolis?");
+                string vastus = (Console.ReadLine());
+                if (vastus == "jah" || vastus == "Jah" || vastus == "JAH")
                 {
-                    Console.WriteLine("Ja ka koolieelik!");
+                    Console.WriteLine("Tubli! Nii peabki!");
                 }
                 else
                 {
-                    Console.WriteLine("Loodan, et läheb koolis hästi!");
+                    Console.WriteLine("Mõtle ikka järele.");
                 }
             }
             else
