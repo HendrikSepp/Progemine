@@ -2,16 +2,16 @@
 {
     internal class Program
     {
-        static void MinuMeetod()
+        static void Jalgratas()
         {
-            Console.WriteLine("Meetod! Meetod! Meetod!");
+            Console.WriteLine("viuh! viuh! viuh!");
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Siin näed minu meetodit:");
-            MinuMeetod();
-            MinuMeetod();
-            MinuMeetod();
+            Console.WriteLine("Vaata kui kiiresti mu jalgratas sõidab!");
+            Jalgratas();
+            Jalgratas();
+            Jalgratas();
 
         }
         
