@@ -19,19 +19,24 @@
             switch (CoffeeSize)
             {
                 case 1:
-                    Console.WriteLine("Väike kohv! {0} eurot palun!", price + 1.5);
+                    price = price + 1.5;
                     break;
                 case 2:
-                    Console.WriteLine("Keskmine kohv! {0} eurot palun!", price + 2.5);
+                    price += 2.5;
                     break;
                 case 3:
-                    Console.WriteLine("Suur kohv! {0} eurot palun!", price + 3);
+                    price = price + 3;
                     break;
                 default:
                     Console.WriteLine("ERROR!");
                     break;
             }
 
+            if (price != 0)
+            {
+                Console.WriteLine("Tuleb maksta {0:f2}", price);
+                Console.ReadKey();
+            }
         }
     }
 }
