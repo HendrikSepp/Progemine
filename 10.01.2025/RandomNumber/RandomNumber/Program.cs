@@ -27,6 +27,9 @@ namespace RandomNumber
                 case 6:
                     Console.WriteLine("Veeretasid {0}!", number);
                     break;
+                default:
+                    Console.WriteLine("ERROR");
+                    break;
             }
         }
     }
