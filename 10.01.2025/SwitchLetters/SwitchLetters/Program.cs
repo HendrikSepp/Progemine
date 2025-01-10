@@ -11,33 +11,33 @@ namespace SwitchLetters
 
             
 
-            switch (sisend)
+            switch (sisend.ToLower)
             {
-                case "A": case "a":
+                case "a":
                     Console.WriteLine("Sisestasid tähe A!");
                     break;
-                case "E": case "e":
+                case "e":
                     Console.WriteLine("Sisestasid tähe E!");
                     break;
-                case "I": case "i":
+                case "i":
                     Console.WriteLine("Sisestasid tähe I!");
                     break;
-                case "O": case "o":
+                case "o":
                     Console.WriteLine("Sisestasid tähe O!");
                     break;
-                case "U": case "u":
+                case "u":
                     Console.WriteLine("Sisestasid tähe U!");
                     break;
-                case "Ä": case "ä":
+                case "ä":
                     Console.WriteLine("Sisestasid tähe Ä!");
                     break;
-                case "Ü": case "ü":
+                case "ü":
                     Console.WriteLine("Sisestasid tähe Ü!");
                     break;
-                case "Õ": case "õ":
+                case "õ":
                     Console.WriteLine("Sisestasid tähe Õ!");
                     break;
-                case "Ö": case "ö":
+                case "ö":
                     Console.WriteLine("Sisestasid tähe Ö!");
                     break;
                 default:
