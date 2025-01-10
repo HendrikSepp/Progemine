@@ -6,7 +6,7 @@ namespace RandomNumber
     {
         static void Main(string[] args)
         {
-            int number = new Random().Next(1, 6);
+            int number = new Random().Next(1, 7);
             switch (number)
             {
                 case 1:
@@ -27,7 +27,6 @@ namespace RandomNumber
                 case 6:
                     Console.WriteLine("Veeretasid {0}!", number);
                     break;
-
             }
         }
     }
