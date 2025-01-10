@@ -40,6 +40,9 @@ namespace SwitchLetters
                 case "Ö": case "ö":
                     Console.WriteLine("Sisestasid tähe Ö!");
                     break;
+                default:
+                    Console.WriteLine("Töötab ainult vokaalidega!");
+                    break;
             }
 
         }
