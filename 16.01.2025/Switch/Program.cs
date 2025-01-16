@@ -22,7 +22,7 @@ namespace Switch
                     Console.WriteLine("Sinu number on vahemikus 201-300");
                     break;
                 default:
-                    Console.WriteLine("Ainult numbrid 0-300");
+                    Console.WriteLine("Ainult numbrid 0-300 palun");
                     break;
             }
 
