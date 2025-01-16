@@ -7,7 +7,7 @@ namespace Switch
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Sisesta number 0-300");
+            Console.WriteLine("Palun sisesta number 0-300");
             int input = int.Parse(Console.ReadLine());
           
             switch (input)
