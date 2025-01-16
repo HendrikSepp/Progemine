@@ -12,7 +12,7 @@
         }
         static void Liha()
         {
-            Console.WriteLine("Valisid liha"!);
+            Console.WriteLine("Valisid liha!");
         }
         static void Main(string[] args)
         {
