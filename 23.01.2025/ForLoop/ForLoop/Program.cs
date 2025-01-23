@@ -18,7 +18,7 @@
                     Console.Write(variable);
                 }
 
-                Console.Write();
+                Console.WriteLine();
             }
 
             Console.ReadKey();
