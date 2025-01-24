@@ -20,7 +20,7 @@
                 Console.Write("{0} ", 2 * i - 1);
                 sum += 2 * i -1;
             }
-            Console.WriteLine("\nEsimese {0} paaritu arvu summa on: {1}", n, sum);
+            Console.Write("\nPaarituid arve on: {0}, nende kokku liitmisel on summa: {1}", n, sum);
         }
     }
 }
