@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Veel üks kolmnurk numbritest");
 
-            int i, j, k = 0, rows;
+            int i, j, k = 1, rows;
 
             Console.WriteLine("Sisesta ridade arv:");
             rows = Convert.ToInt32(Console.ReadLine());
