@@ -18,7 +18,6 @@
             for (kakskymmend = 0; summa >= 20; kakskymmend++)
             {
                 summa -= 20;
-
             }
             for (kymme = 0; summa >= 10; kymme++)
             {
