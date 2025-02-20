@@ -8,6 +8,9 @@
             Console.WriteLine(Weekdays.Monday);
             Console.WriteLine((int) Weekdays.Monday);
 
+            var weekDay = (Weekdays)0;
+            Console.WriteLine(weekDay);
+
         }
 
         enum Weekdays
