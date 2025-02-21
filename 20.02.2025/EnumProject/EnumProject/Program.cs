@@ -11,6 +11,9 @@
             var weekDay = (Weekdays)0;
             Console.WriteLine(weekDay);
 
+            int color = (int)Colors.Yellow;
+            Console.WriteLine(color);
+
         }
 
         enum Weekdays
@@ -22,6 +25,15 @@
             Friday,
             Saturday,
             Sunday
+        }
+
+        enum Colors
+        {
+            Red = 3,
+            Green = 10,
+            Blue = 13,
+            Yellow = 5,
+            Black = 1
         }
     }
 }
