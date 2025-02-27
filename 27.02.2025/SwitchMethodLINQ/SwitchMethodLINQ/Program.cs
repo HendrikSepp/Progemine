@@ -14,6 +14,8 @@
             Console.WriteLine("5 ToLookUp LINQ");
             Console.WriteLine("6 Join LINQ");
             Console.WriteLine("7 GroupJoin LINQ");
+            Console.WriteLine("8 Average LINQ");
+            Console.WriteLine("9 Count LINQ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice)
@@ -44,6 +46,14 @@
 
                 case 7:
                     GroupJoinLINQ();
+                    break;
+
+                case 8:
+                    AverageLINQ();
+                    break;
+
+                case 9:
+                    CountLINQ();
                     break;
 
                 default:
@@ -162,6 +172,23 @@
                     Console.WriteLine(name.Name);
                 }
             }
+        }
+        public static void AverageLINQ()
+        {
+            var AverageAge = PeopleList.peoples
+                .Average(x => x.Age);
+            Console.WriteLine("Keskmine vanus:");
+            Console.WriteLine(AverageAge);
+        }
+        public static void CountLINQ()
+        {
+            var totalPersons = PeopleList.peoples.Count();
+
+            Console.WriteLine("kokku inimesi: " + totalPersons);
+
+            var adultPerson = PeopleList.peoples.Count(x => x.Age >= 18);
+
+            Console.WriteLine("Täisealisi inimesi: " + adultPerson);
         }
     }
 }
