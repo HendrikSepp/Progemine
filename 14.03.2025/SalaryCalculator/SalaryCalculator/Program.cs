@@ -51,17 +51,26 @@
         public static double SalaryCalculationFrom1200To2100(double netIncome, double brutoIncome)
         {
             double incomeTax = 0.22;
-            double TaxFreeIncome =
+            double taxFreeIncome = 654 - 0.72667 * (brutoIncome - 1200);
 
             double pensionFund = brutoIncome * 0.02;
             double unempTax = brutoIncome * 0.016;
+
+            double incomeTaxSum = (brutoIncome - (taxFreeIncome + pensionFund + unempTax)) * incomeTax;
+            netIncome = brutoIncome - (pensionFund + unempTax + incomeTaxSum);
 
             return netIncome;
         }
 
         public static double SalaryCalculationIsAbove2100(double netIncome, double brutoIncome)
         {
+            double IncomeTax = 0.22;
 
+            double pensionFund = brutoIncome * 0.02;
+            double unempTax = brutoIncome * 0.016;
+
+            double incomeTaxSum = (brutoIncome - (pensionFund + unempTax)) * IncomeTax;
+            netIncome = brutoIncome - (pensionFund + unempTax + incomeTaxSum);
 
             return netIncome;
         }
